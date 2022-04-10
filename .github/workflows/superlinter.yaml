@@ -5,7 +5,7 @@ on: push
 jobs:
   super-lint:
     name: Lint code base
-    runs-on: self-hosted
+    runs-on: ubuntu-18.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
